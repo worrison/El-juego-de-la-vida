@@ -12,17 +12,7 @@ namespace Tests
         public void Setup()
         {
         }
-        /*
-         
-             int n = 7;
-            bool resultado = matematicas.esPrimo(n);
-            Assert.IsTrue(resultado);
-            Assert.Pass();
-             
-             
-             
-             
-             */
+       
         [Test]
         public void isViva1()
         {
@@ -70,12 +60,6 @@ namespace Tests
         {
             bool resultado = cel.muerta(true, 4);
             Assert.IsFalse(resultado);
-        }
-
-        [Test]
-        public void Test2()
-        {
-            Assert.Pass();
         }
     }
 }
